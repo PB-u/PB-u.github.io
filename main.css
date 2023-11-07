@@ -3,7 +3,7 @@
     /* background: url('calm.jpg') center center;*/
     background-size: cover;
     text-align: center;
-    padding: 100px 0; /* Testreszabható méret */
+    padding: 0px 5; /* Testreszabható méret */
     /* color: #fff; Szöveg színe a banner-en belül */
 }
 
@@ -18,8 +18,8 @@
 
 /* A háttérkép igazítása a képernyő közepére és méretének beállítása a banner méretéhez */
 .banner img {
-    width: 100%; /* Az kép 100%-os szélessége a bannerhez képest */
-    max-height: 400px; /* A kép maximális magassága */
+    width: 500px; /* Az kép 100%-os szélessége a bannerhez képest */
+    /* max-height: 100%;  A kép maximális magassága */
 }
 
 
