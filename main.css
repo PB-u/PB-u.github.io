@@ -1,17 +1,26 @@
-/* Stílus a fejléc számára */
+/* FÅ‘ hÃ¡ttÃ©rszÃ­n */
+body {
+    background-color: #202e39;
+}
+
+/* BetÅ±szÃ­n */
+body,
 .navbar {
-    background-color: #1b365d; /* Access Consciousness kék színséma */
-    font-family: 'Quicksand', sans-serif; /* Betütípus beállítása */
-    font-weight: 700; /* Félkövér stílus használata */
+    color: #ffffff;
 }
 
-/* Stílus a navigációs menü szövegéhez */
-.navbar .navbar-brand,
-.navbar .nav-link {
-    color: #fff; /* Fehér szövegszín */
+/* MenÃ¼ hÃ¡ttÃ©rszÃ­n */
+.navbar {
+    background-color: transparent;
 }
 
-/* Stílus a menügomb ikonjához */
-.navbar-toggler-icon {
-    background-color: #fff; /* Fehér menügomb ikon színe */
+/* MenÃ¼ betÅ±szÃ­n */
+.navbar a {
+    color: #202e39;
+}
+
+/* Gombok */
+.btn {
+    background-color: #e2007a;
+    color: #ffffff;
 }
