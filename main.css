@@ -1,0 +1,43 @@
+﻿/* Banner beállítások */
+.banner {
+    /* background: url('calm.jpg') center center;*/
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0; /* Testreszabható méret */
+    /* color: #fff; Szöveg színe a banner-en belül */
+}
+
+/* Banner szöveg stílusa */
+.banner-text h1 {
+    font-size: 32px; /* Szöveg mérete */
+    margin-bottom: 20px;
+}
+.banner-text p {
+    font-size: 18px; /* Szöveg mérete */
+}
+
+/* A háttérkép igazítása a képernyő közepére és méretének beállítása a banner méretéhez */
+.banner img {
+    width: 100%; /* Az kép 100%-os szélessége a bannerhez képest */
+    max-height: 400px; /* A kép maximális magassága */
+}
+
+
+
+/* Térkép elrendezése */
+iframe {
+    width: 90%;
+    height: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Szolgáltatások mobil nézetben */
+@media (max-width: 767px) {
+    .col {
+        margin-bottom: 20px;
+    }
+    .row {
+        flex-direction: column;
+    }
+}
