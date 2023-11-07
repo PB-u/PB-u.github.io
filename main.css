@@ -1,1 +1,17 @@
+/* Stílus a fejléc számára */
+.navbar {
+    background-color: #1b365d; /* Access Consciousness kék színséma */
+    font-family: 'Quicksand', sans-serif; /* Betütípus beállítása */
+    font-weight: 700; /* Félkövér stílus használata */
+}
 
+/* Stílus a navigációs menü szövegéhez */
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff; /* Fehér szövegszín */
+}
+
+/* Stílus a menügomb ikonjához */
+.navbar-toggler-icon {
+    background-color: #fff; /* Fehér menügomb ikon színe */
+}
